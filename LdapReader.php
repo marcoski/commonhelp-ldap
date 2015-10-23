@@ -4,6 +4,8 @@ namespace Commonhelp\Ldap;
 use Commonhelp\Resource\SubSystem;
 use Commonhelp\Resource\Session;
 use Commonhelp\Ldap\Exception\LdapException;
+use Commonhelp\Ldap\Utils\ResultSet;
+use Commonhelp\Ldap\Utils\Dn;
 
 class LdapReader extends SubSystem{
 	

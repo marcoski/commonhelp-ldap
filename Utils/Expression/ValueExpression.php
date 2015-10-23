@@ -1,8 +1,9 @@
 <?php
-namespace Commonhelp\Ldap\Filters;
+namespace Commonhelp\Ldap\Expression;
 
 use Commonhelp\Util\Expression\BTreeExpression;
 use Commonhelp\Util\Expression\Visitor;
+
 class ValueExpression extends BTreeExpression{
 	public function __construct($litteral){
 		$this->value = $litteral;

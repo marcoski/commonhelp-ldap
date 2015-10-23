@@ -1,6 +1,6 @@
 <?php
 
-namespace Commonhelp\Ldap;
+namespace Commonhelp\Ldap\Utils;
 
 use Commonhelp\Util\Expression\Expression;
 use Commonhelp\Util\Expression\InOrderVisitor;

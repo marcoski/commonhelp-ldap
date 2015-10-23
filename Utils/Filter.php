@@ -1,11 +1,11 @@
 <?php
 
-namespace Commonhelp\Ldap;
+namespace Commonhelp\Ldap\Utils;
 use Commonhelp\Util\Expression\PreOrderVisitor;
 use Commonhelp\Ldap\Exception\LdapException;
 use Commonhelp\Util\Expression\Expression;
 use Commonhelp\Util\Expression\Boolean\NonTerminalExpression;
-use Commonhelp\Ldap\Filters\FilterExpression;
+use Commonhelp\Ldap\Expression\FilterExpression;
 
 class Filter extends PreOrderVisitor{
 	

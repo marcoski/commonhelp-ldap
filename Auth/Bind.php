@@ -1,9 +1,10 @@
 <?php
 
-namespace Commonhelp\Ldap;
+namespace Commonhelp\Ldap\Auth;
 
-use Commonhelp\Authentication\Auth;
+use Commonhelp\Resource\Auth;
 use Commonhelp\Ldap\Exception\LdapException;
+use Commonhelp\Ldap\Utils\Dn;
 
 class Bind implements Auth{
 	

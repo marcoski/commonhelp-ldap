@@ -5,6 +5,7 @@ namespace Commonhelp\Ldap;
 use Commonhelp\Resource\AbstractResource;
 use Commonhelp\Resource\Session;
 use Commonhelp\Ldap\Exception\LdapException;
+use Commonhelp\Ldap\Auth\Bind;
 
 class LdapSession extends AbstractResource implements Session{
 	

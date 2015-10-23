@@ -2,7 +2,7 @@
 namespace Commonhelp\Ldap;
 
 use Commonhelp\Util\Expression\Context\FilterContext;
-use Commonhelp\Ldap\Filters\FilterExpression;
+use Commonhelp\Ldap\Expression\FilterExpression;
 use Commonhelp\Util\Expression\Boolean\OrExpression;
 use Commonhelp\Util\Expression\Boolean\AndExpression;
 use Commonhelp\Util\Expression\Boolean\NotExpression;

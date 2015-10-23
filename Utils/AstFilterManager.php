@@ -1,8 +1,8 @@
 <?php
-namespace Commonhelp\Ldap;
+namespace Commonhelp\Ldap\Utils;
 
 use ArrayAccess;
-use Commonhelp\Ldap\Filters\AttributeExpression;
+use Commonhelp\Ldap\Expression\AttributeExpression;
 use Commonhelp\Util\Expression\AstManager;
 
 class AstFilterManager implements AstManager, ArrayAccess{

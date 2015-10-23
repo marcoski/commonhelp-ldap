@@ -1,6 +1,6 @@
 <?php
 
-namespace Commonhelp\Ldap\Filters;
+namespace Commonhelp\Ldap\Expression;
 use Commonhelp\Util\Expression\Visitor;
 use Commonhelp\Util\Expression\BTreeExpression;
 

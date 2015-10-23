@@ -1,8 +1,9 @@
 <?php
 
-namespace Commonhelp\Ldap;
+namespace Commonhelp\Ldap\Utils;
 
 use Commonhelp\Ldap\Exception\LdapException;
+
 class Dn implements \ArrayAccess{
 	
 	protected $dn;

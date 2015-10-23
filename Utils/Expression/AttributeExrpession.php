@@ -1,10 +1,11 @@
 <?php
-namespace Commonhelp\Ldap\Filters;
+namespace Commonhelp\Ldap\Expression;
 
 use Commonhelp\Util\Expression\BTreeExpression;
 use Commonhelp\Util\Expression\Visitor;
-use Commonhelp\Ldap\Filter;
-use Commonhelp\Ldap\FilterExpressionVisitor;
+use Commonhelp\Ldap\Utils\Filter;
+use Commonhelp\Ldap\Utils\FilterExpressionVisitor;
+
 class AttributeExpression extends BTreeExpression{
 	public function __construct($litteral){
 		$this->value = $litteral;
