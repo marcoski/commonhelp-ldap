@@ -2,8 +2,8 @@
 namespace Commonhelp\Ldap\Utils;
 
 use ArrayAccess;
-use Commonhelp\Ldap\Expression\AttributeExpression;
 use Commonhelp\Util\Expression\AstManager;
+use Commonhelp\Ldap\Utils\Expression\AttributeExpression;
 
 class AstFilterManager implements AstManager, ArrayAccess{
 	

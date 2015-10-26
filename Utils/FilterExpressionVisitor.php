@@ -4,7 +4,7 @@ namespace Commonhelp\Ldap\Utils;
 
 use Commonhelp\Util\Expression\Expression;
 use Commonhelp\Util\Expression\InOrderVisitor;
-use Commonhelp\Ldap\Filters\FilterExpression;
+use Commonhelp\Ldap\Utils\Expression\FilterExpression;
 
 
 class FilterExpressionVisitor extends InOrderVisitor{

@@ -2,14 +2,18 @@
 namespace Commonhelp\Ldap;
 
 use Commonhelp\Util\Expression\Context\FilterContext;
-use Commonhelp\Ldap\Expression\FilterExpression;
+use Commonhelp\Ldap\Utils\Expression\FilterExpression;
 use Commonhelp\Util\Expression\Boolean\OrExpression;
 use Commonhelp\Util\Expression\Boolean\AndExpression;
 use Commonhelp\Util\Expression\Boolean\NotExpression;
+use Commonhelp\Ldap\Utils\AstFilterManager;
+use Commonhelp\Ldap\Utils\Dn;
+use Commonhelp\Ldap\Utils\Filter;
+
 class LdapSessionTest extends \PHPUnit_Framework_TestCase{
 	
 	protected $options = array(
-		'host' 		=> 'ponteserver.unponteper.it',
+		'host' 		=> 'stargate.unponteper.it',
 		'username' => 'cn=admin,dc=unponteper,dc=it',
 		'password' => 'Missioni2010',
 		'basedn' => 'dc=unponteper,dc=it'
@@ -29,9 +33,9 @@ class LdapSessionTest extends \PHPUnit_Framework_TestCase{
 	
 	public function testValidDn(){
 		Dn::factory($this->validDn);
-	}*/
+	}
 	
-	/*public function testRead(){
+	public function testRead(){
 		// (&(|(objectClass=sambaAccount)(objectClass=sambaSamAccount))(objectClass=posixAccount)(!(uid=*$)))
 		// (&(|(A)(B))(C)(!(B))) -> (A | B) & (C) & (B) -> (A | B9) & ((C) & (!B))
 		 

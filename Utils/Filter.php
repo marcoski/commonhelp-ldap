@@ -5,7 +5,7 @@ use Commonhelp\Util\Expression\PreOrderVisitor;
 use Commonhelp\Ldap\Exception\LdapException;
 use Commonhelp\Util\Expression\Expression;
 use Commonhelp\Util\Expression\Boolean\NonTerminalExpression;
-use Commonhelp\Ldap\Expression\FilterExpression;
+use Commonhelp\Ldap\Utils\Expression\FilterExpression;
 
 class Filter extends PreOrderVisitor{
 	

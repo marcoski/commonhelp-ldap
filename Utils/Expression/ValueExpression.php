@@ -1,5 +1,5 @@
 <?php
-namespace Commonhelp\Ldap\Expression;
+namespace Commonhelp\Ldap\Utils\Expression;
 
 use Commonhelp\Util\Expression\BTreeExpression;
 use Commonhelp\Util\Expression\Visitor;
